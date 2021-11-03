@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className='appHeader'>
-        <h1 className='headerTitle'>COVID 19 Dashboard<span className="headerSubNote">A <a href="https://www.futurice.com/" rel="noopener noreferrer" target="_blank">Futurice</a> initiative</span><a href="https://spiceprogram.org/chilicorn/" rel="noopener noreferrer" target="_blank"><img src={ChilicornLogo} alt='Chilicorn Logo' className='chilicornLogo'/></a></h1>
+        <h1 className='headerTitle'>COVID 19 Dashboard<span className="headerSubNote">A great Covid19 dashboard with data from <a href="https://github.com/"" rel="noopener noreferrer" target="_blank"><img src={ChilicornLogo} alt='Chilicorn Logo' className='chilicornLogo'/></a></h1>
           <div className='icons'>
             <FacebookShareButton className="fbIcon" url={'https://covid19.mustafasaifee.com'} quote={'Live dashboard visualizing the spread of coronavirus COVID-19'}>
               <FacebookIcon size={28} round={true} />
