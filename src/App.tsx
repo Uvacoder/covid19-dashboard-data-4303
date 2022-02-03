@@ -21,9 +21,7 @@ function App() {
       <header className='appHeader'>
         <h1 className='headerTitle'>COVID 19 Dashboard<span className="headerSubNote">A great Covid19 dashboard with data from <a href="https://github.com/"" rel="noopener noreferrer" target="_blank"><img src={ChilicornLogo} alt='Chilicorn Logo' className='chilicornLogo'/></a></h1>
           <div className='icons'>
-            <FacebookShareButton className="fbIcon" url={'https://covid19.mustafasaifee.com'} quote={'Live dashboard visualizing the spread of coronavirus COVID-19'}>
-              <FacebookIcon size={28} round={true} />
-            </FacebookShareButton>
+            
             <TwitterShareButton url={'https://covid19.mustafasaifee.com'} title={'Live dashboard visualizing the spread of coronavirus COVID-19 via @mustafasaifee42'}>
               <TwitterIcon size={28} round={true} />
             </TwitterShareButton>
@@ -39,9 +37,7 @@ function App() {
           <FacebookShareButton className="fbIcon" url={'https://covid19.mustafasaifee.com'} quote={'Live dashboard visualizing the spread of COVID-19 coronavirus'}>
             <FacebookIcon size={24} round={true} />
           </FacebookShareButton>
-          <TwitterShareButton url={'https://covid19.mustafasaifee.com'} title={'Live dashboard visualizing the spread of COVID-19 coronavirus via @mustafasaifee42'}>
-            <TwitterIcon size={24} round={true} />
-          </TwitterShareButton>
+          
         </div>
       </footer>
     </div>
