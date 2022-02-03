@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className='appHeader'>
-        <h1 className='headerTitle'>COVID 19 Dashboard<span className="headerSubNote">A great Covid19 dashboard with data from <a href="https://github.com/uvacoder" rel="noopener noreferrer" target="_blank">Chili<img src={ChilicornLogo} alt='Chilicorn Logo' className='chilicornLogo'/></a></span></h1>
+        <h1 className='headerTitle'>COVID 19 Dashboard Data<span className="headerSubNote">A great Covid19 dashboard with data from <a href="https://github.com/uvacoder" rel="noopener noreferrer" target="_blank">Chili<img src={ChilicornLogo} alt='Chilicorn Logo' className='chilicornLogo'/></a></span></h1>
           <div className='icons'>
             
             <TwitterShareButton url={'https://covid19.mustafasaifee.com'} title={'Live dashboard visualizing the spread of coronavirus COVID-19 via @mustafasaifee42'}>
@@ -32,7 +32,7 @@ function App() {
         height={windowHeightValue}
       />
       <footer className='footer'>
-        <span>Made with me by <a href="https://mustafasaifee.com/" rel="noopener noreferrer" target="_blank">uvacoder</a> @ <a href="https://www.futurice.com/" rel="noopener noreferrer" target="_blank">Futurice</a> | Follow me on <a href="https://twitter.com/mustafasaifee42" rel="noopener noreferrer" target="_blank">twitter</a> | <a href="https://github.com/CSSEGISandData/COVID-19"  rel="noopener noreferrer" target="_blank">Data Source: Johns Hopkins University CSSE</a> (Updates every 24 Hrs)| <a href="https://github.com/mustafasaifee42/Covid-19-dashboard"  rel="noopener noreferrer" target="_blank">Open Source Code</a> | Spread the information and stay safe</span>
+        <span>Made by <a href="https://abclinks.vercel.app/" rel="noopener noreferrer" target="_blank">uvacoder</a> | Follow me on <a href="https://twitter.com/AlecCam43544378" rel="noopener noreferrer" target="_blank">twitter</a> | <a href="https://github.com/uvacoder"  rel="noopener noreferrer" target="_blank">uvacoder</a>Data Source: Johns Hopkins University CSSE (Updates every 24 Hrs)| <a href="https://github.com/uvacoder/covid19-dashboard-data"  rel="noopener noreferrer" target="_blank">Open Source Code</a> | Spread the information and stay safe</span>
         <div className='icons'>
           <FacebookShareButton className="fbIcon" url={'https://covid19.mustafasaifee.com'} quote={'Live dashboard visualizing the spread of COVID-19 coronavirus'}>
             <FacebookIcon size={24} round={true} />
